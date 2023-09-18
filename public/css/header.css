@@ -1,0 +1,23 @@
+.header{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 18px;
+}
+.header input:enabled:focus {
+    box-shadow: none;
+    border: 1px solid #e50914;
+    width: 100%;
+    color: #e50914;
+  }
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.spin-span {
+    display: inline-block;
+    animation: spin 2s linear infinite;
+}

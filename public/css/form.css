@@ -1,0 +1,31 @@
+.formBgImage {
+  background-image: url("../../public/assets/images/formBg.jpg");
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #00000087;
+}
+.formBg {
+  background-color: #000000bf;
+}
+.formBg form {
+  width: 100%;
+}
+.formBg input:enabled:focus {
+  box-shadow: none;
+  border: 1px solid #e50914;
+  width: 100%;
+  color: #e50914;
+}
+.formBg input {
+  width: 100%;
+}
+.formBg div {
+  color: red;
+  font-size: 12px;
+  word-spacing: 0px;
+  height: 18px;
+  width: 100%;
+}
